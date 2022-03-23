@@ -1,0 +1,34 @@
+.dropwa{
+    position: relative;
+    left: -20px;
+}
+.Nac{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+}
+.Nad{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(92, 179, 6);
+}
+.info{
+    margin-top: 1rem;
+}
+.para{
+    text-align: justify;
+    font-size: 1.2rem;
+}
+li{
+    font-size: 1.2rem;
+    text-align: justify;
+}
+.black{
+    color: black;
+}
+.main{
+    margin-bottom: 1rem;
+}

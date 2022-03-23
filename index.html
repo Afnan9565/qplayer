@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QPlayer</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> 
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1bbf6c01b5.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <link rel="shortcut icon" href="favicon.jpg" type="image/jpg">
+    <style>
+        .navi{
+            display:flex;
+            align-items:center;
+            justify-content:space-between !important;
+            margin-top: 1rem;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <nav class="navi">
+        <div class="title-holder">
+            <h1 class="Nac head">QPlayer</h1>
+        </div>
+        <div class="dropdown-holder">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 dropwa">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Menu
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="privacy.html">Privacy Policy</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="https://forms.gle/w7WyvwFeSJkY5qyi9" target="_blank">Feedback</a></li>
+                  </ul>
+                </li>
+              </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="heading">
+            <h1 class = "promo">QPlaYer iS</h1>
+            <h1 class = "promo">HeRe!!</h1>
+        </div>
+        <div class="playhandler">
+            <button onclick="play()" id="playbtn"><i class="fas fa-play-circle" id="play"></i></button>
+        </div>
+    </div>
+</body>
+
+</html>

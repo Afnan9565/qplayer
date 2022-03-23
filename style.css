@@ -1,0 +1,91 @@
+#audio{
+    display: none;
+}
+#play{
+    font-size: 3rem;
+}
+.head{
+    font-size: 2rem;
+}
+.playhandler{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    background-image: url("bgpc.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    
+}
+#playbtn{
+    border-radius: 50%;
+    cursor:pointer;
+}
+ul{
+    position: relative;
+    left:-14px
+}
+.Nac{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 8rem;
+}
+.promo{
+    background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+}
+.heading{
+    color: white;
+    font-family: 'Franklin Gothic Medium', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 20rem;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-image: url("bgmo.jpg");
+
+    }
+    .heading{
+        color: white;
+        font-family: 'Franklin Gothic Medium', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        margin-left: 0rem;
+        
+    }
+    .promo{
+        background: linear-gradient(to right, #9d50bb, #6e48aa);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 3rem;
+    }
+  }
+@media only screen and (max-width: 414px) {
+    body {
+      background-image: url("bgmo.jpg");
+      background-size: cover;
+      height: 100%;
+
+    }
+    .heading{
+        color: white;
+        font-family: 'Franklin Gothic Medium', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        margin-left: 4rem;
+        font-size: 2.1rem;
+    }
+    .promo{
+        background: linear-gradient(to right, #9d50bb, #6e48aa);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+  }
+  
