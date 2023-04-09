@@ -48,7 +48,9 @@ ul{
     color: white;
     font-family: 'Franklin Gothic Medium', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-left: 20rem;
-    
+    display:grid;
+    align-items:center;
+    justify-content:center;
 }
 
 @media only screen and (max-width: 600px) {
@@ -90,6 +92,6 @@ ul{
   }
   
 .avatar{
-    height:50%;
+    height:63%;
     width:auto;
 }
